@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <div class="sidebar">
+      <h2>Spotify</h2>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Search</a>
+        <a href="#">Library</a>
+      </nav>
+    </div>
+    
+    <div class="main">
+      <header>
+        <h1>Playing Now</h1>
+      </header>
+      <div class="player">
+        <div class="song-info">
+          <h2>Song Title</h2>
+          <p>Artist Name</p>
+        </div>
+        <div class="controls">
+          <button id="prev">⏮️</button>
+          <button id="play">▶️</button>
+          <button id="next">⏭️</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="chat-container">
+      <h3>Chat</h3>
+      <div class="chat-box" id="chat-box"></div>
+      <input type="text" id="chat-input" placeholder="Type a message...">
+      <button id="send-btn">Send</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
